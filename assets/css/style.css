@@ -56,7 +56,7 @@ body {
   width: auto;
   height: 1000px;
   display: flex;
-  background-image: url("../images/appartaments.jpg");
+  background: url("../images/appartaments.jpg");
 }
 
 .header__bg {
