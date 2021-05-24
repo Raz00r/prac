@@ -29,7 +29,7 @@
 </head>
 <body>
     <div id="grid">
-        <img href="index.html" src="#">
+        <img href="index.html" src="/prac/assets/images/logo.png" width="200px" height="70px">
         <div>
             <a href="index.html" target="_top" class="header__text">Главная</a>
           
@@ -41,11 +41,21 @@
       <form class="form__1" action="assets/php/php.php" method="get" >
         <p class="form__title">Заказать номер</p>
         <input type="text" class="form__name form__margin" placeholder="Имя" name="name">
-        <input type="text" class="form__phone " placeholder="Телефон" name="number">
-        <input type="text" class="form__message form__margin" placeholder="Опишите проблему" name="problem">
-        <input type="text" class="form__adress form__margin" placeholder="Ваш адрес" name="adress">
+        <input type="text" class="form__phone " placeholder="Фамилия" name="number">
+        <input type="text" class="form__message form__margin" placeholder="Паспортные данные" name="problem">
+        <input type="text" class="form__adress form__margin" placeholder="Номер телефона" name="adress">
+        <select class="select" name="select"> 
+          <option value="value1">Vip </option>
+          <option value="value2" selected>Семейный</option>
+          <option value="value3">Семейный +</option>
+          <option value="value3">Бюджетный</option>
+        </select>
+        <input type="text" class="form__adress form__margin" placeholder="Номер карты" name="adress">
         <input type="submit" class="form__button form__margin" placeholder="Отправить">
+
         <p class="form__bottom form__number">+7 (3462) 39-03-09</p>
            </form>
+
+           
     </body>
     </html>
