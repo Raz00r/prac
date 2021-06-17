@@ -444,7 +444,7 @@ td:last-child {
 /* footer */
 
 .footer-menu{
-  padding:3em 0;
+  padding:2em 0;
   box-shadow: 0 0px 10px #ccc;
   background-color: #fff;
 }
@@ -463,6 +463,7 @@ td:last-child {
   margin:0 1em;
   font-size:1.2rem;
   text-decoration:none;
+  
 }
 .footer-menu ul li a:hover{
   color:#EE7B00;
